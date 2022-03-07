@@ -1,0 +1,61 @@
+body{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	background-image: url(folder1/flames.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	text-align: center;
+	color: black;
+	margin: 40px 0 0px;
+	margin-top: 50px;
+	text-shadow: 2px 2px 8px black;
+}
+h2{
+	text-align: center;
+	color: black;
+	margin: 15px 0 0px;
+	margin-top: 60px;
+    text-shadow: 2px 2px 8px black;
+}
+.pic{
+	margin: 10px 50px;
+}
+.pic img {
+		height: 300px;
+		width: 232px;
+		padding: 5px;
+		filter: grayscale(100%);
+		transition: 1s;
+}
+.pic img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+.nav-bar {
+    top: 0;
+    position: sticky;
+    z-index: 2;
+
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav {
+    float: right;
+    text-align: right;
+}
+
+.nav-link {
+    color: white !important;
+}
